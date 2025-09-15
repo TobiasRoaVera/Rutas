@@ -44,7 +44,7 @@ export class ProductoComponent {
   ];
 
   agregarAlCarrito(producto: any) {
-    console.log(`${producto.nombre} agregado al carrito`);
+    alert(`"${producto.nombre}" ha sido agregado al carrito.`);
   }
 }
 
