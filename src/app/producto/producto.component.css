@@ -6,6 +6,8 @@
   gap: 2rem;
   font-family: 'Segoe UI', sans-serif;
   color: #333;
+  border-bottom: 1px solid #eee; /* separación visual entre productos */
+  padding-bottom: 2rem;          /* espacio interno inferior */
 }
 
 .product-image {
@@ -67,5 +69,7 @@
   .product-detail {
     flex-direction: column;
     gap: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
+
