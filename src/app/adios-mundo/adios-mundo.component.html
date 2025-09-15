@@ -1,0 +1,119 @@
+<section class="menu">
+  <h2>Nuestras categorias</h2>
+  <p class="subtitle">Descubre los platillos que tenemos para ti</p>
+
+  <!-- Entradas -->
+  <div class="menu-category">
+    <h3>Entradas</h3>
+    <swiper [config]="config" class="menu-carousel">
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bruschetta">
+          <h4>Bruschetta <span class="price">$5.00</span></h4>
+          <p>Pan tostado con tomate fresco, albahaca y aceite de oliva.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/4106483/pexels-photo-4106483.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sopa de Tomate">
+          <h4>Sopa de Tomate <span class="price">$4.50</span></h4>
+          <p>Una sopa cremosa de tomate con hierbas frescas.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ensalada César">
+          <h4>Ensalada César <span class="price">$6.50</span></h4>
+          <p>Clásica ensalada con pollo, crutones y aderezo césar.</p>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+
+  <!-- Platos Principales -->
+  <div class="menu-category">
+    <h3>Platos Principales</h3>
+    <swiper [config]="config" class="menu-carousel">
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pasta Alfredo">
+          <h4>Pasta Alfredo <span class="price">$12.00</span></h4>
+          <p>Pasta cremosa con salsa Alfredo y queso parmesano.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sushi">
+          <h4>Sushi Variado <span class="price">$15.00</span></h4>
+          <p>Selección de rolls, nigiris y sashimi fresco.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/4106486/pexels-photo-4106486.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pollo a la Parrilla">
+          <h4>Pollo a la Parrilla <span class="price">$13.50</span></h4>
+          <p>Pollo marinado a la parrilla con guarnición de vegetales.</p>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+
+  <!-- Postres -->
+  <div class="menu-category">
+    <h3>Postres</h3>
+    <swiper [config]="config" class="menu-carousel">
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cheesecake">
+          <h4>Cheesecake <span class="price">$5.50</span></h4>
+          <p>Pastel de queso suave con base de galleta.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tiramisú">
+          <h4>Tiramisú <span class="price">$6.00</span></h4>
+          <p>Postre italiano con café, cacao y mascarpone.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Helado Artesanal">
+          <h4>Helado Artesanal <span class="price">$4.00</span></h4>
+          <p>Helados caseros de distintos sabores.</p>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+
+  <!-- Bebidas -->
+  <div class="menu-category">
+    <h3>Bebidas</h3>
+    <swiper [config]="config" class="menu-carousel">
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jugo Natural">
+          <h4>Jugo Natural <span class="price">$3.50</span></h4>
+          <p>Jugos frescos de naranja, piña o mango.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Café Espresso">
+          <h4>Café Espresso <span class="price">$2.50</span></h4>
+          <p>Café intenso y aromático, recién preparado.</p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="menu-card">
+          <img src="https://images.pexels.com/photos/290316/pexels-photo-290316.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Copa de Vino">
+          <h4>Copa de Vino <span class="price">$7.00</span></h4>
+          <p>Vinos tintos y blancos de selección.</p>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+</section>
+
+
+
