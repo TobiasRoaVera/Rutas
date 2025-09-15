@@ -4,5 +4,5 @@ import { AdiosMundoComponent } from './adios-mundo/adios-mundo.component';
 export const routes: Routes = [
     { path: '', redirectTo: 'inicio', pathMatch: 'full' }, // 👈 ruta por defecto
     { path: 'inicio', component: HolaMundoComponent },
-    { path: 'menu', component: AdiosMundoComponent}
+    { path: 'categorias', component: AdiosMundoComponent}
 ];
